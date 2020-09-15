@@ -9,10 +9,17 @@
 	left: 50%;
 }
 
-h1 {
+#letterA {
 	font-size: 2700%;
 	position: relative;
 	top: -150%;
+	transition: 0.5s;
+}
+
+#letterA :active, #letterA.active{
+	transition-delay: ease-in 1s;
+	transition-duration: 1s;
+	transform: translateX(-400px) scale(0.5) translateY(-650px);
 }
 
 #aadvark {
@@ -22,8 +29,4 @@ h1 {
 	position: fixed;
 	margin-top: 200px;
 	margin-left: 100px;
-}
-
-body {
-	background-image:;
 }
