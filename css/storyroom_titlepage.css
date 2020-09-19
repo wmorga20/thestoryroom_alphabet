@@ -1,0 +1,59 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+.fixed-top {
+	padding: 70px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+
+.bg-image {
+	height: 2250px;
+	width: 2000px;
+	background-repeat: no-repeat;
+	background-size: 2000px;
+}
+
+.img1 {
+	background-image: url("../images/finished/storyroomhouse_1.png");
+}
+
+/*main {
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 10fr))
+}
+*/
+
+/*.card {
+	background-size: cover;
+	max-width: 100%;
+	position: relative;
+	height: 200%;
+}
+*/
+
+button {
+    background-color: yellow;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+		outline:none;
+		width: 230px;
+		height: 590px;
+		position: relative;
+		top: 1630px;
+		left: 1160px;
+		transition-property: all;
+}
+
+button :hover{
+	background-color: green;
+}
+
+top: 76%;
+		left: 57%;
