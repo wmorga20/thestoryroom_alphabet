@@ -1,0 +1,22 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+.fixed-top {
+	padding: 70px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+
+.bg-image {
+	height: 2200px;
+	width: 1800px;
+	background-repeat: no-repeat;
+	background-size: 1800px;
+}
+
+.img1 {
+	background-image: url("../images/finished/storyroom_inside.jpg");
+}
