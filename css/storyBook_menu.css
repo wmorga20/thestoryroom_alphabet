@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(254, 255, 206);
+}
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+	background-image: linear-gradient(to left, rgb(0, 204, 255),rgb(162, 0, 255));
+	-webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+	border-width: 5px;
+	font-size: 100px;
+	top: 20px;
+	padding-left: 20%;
+	animation: myframes 2s, ease-in-out 0s infinite;
+	animation-iteration-count: infinite;
+	z-index: 1;
+	position: relative;
+}
+
+h1:hover {
+	position: absolute;
+	background-image: linear-gradient(to left, rgb(81, 255, 0),rgb(255, 208, 0));
+	opacity: 1;
+	transition: opacity 1s linear;
+	z-index: 2;
+}
+
+@keyframes myframes {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
