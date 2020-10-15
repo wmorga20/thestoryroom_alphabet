@@ -89,3 +89,20 @@ h1 {
 	color: rgb(255, 145, 0);
 	font-size: 200%;
 }
+
+#priscillajadePic1 {
+	background-image: url("../images/finished/pandj_1.png");
+	background-color: thistle;
+	position: fixed;
+	width: 300px;
+	height: 500px;
+	padding-left: 100px;
+	padding-top: 80px;
+	left: 800px;
+	top: 150px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+	opacity: 0%;
+
+}

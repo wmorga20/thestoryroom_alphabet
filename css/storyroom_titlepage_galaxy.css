@@ -1,0 +1,89 @@
+body, html{
+	height: 100%;
+	width: auto;
+	margin: 0;
+}
+
+.fixed-top {
+	padding: 70px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+
+#img1 {
+	height: 4000px;
+	width: 2000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img1 {
+	background-image: url("../images/finished/black_galaxy.png");
+}
+
+#colorDoor {
+	width: 25vw;
+	position: relative;
+	top: 780px;
+	left: 560px;
+	padding-right: 100px;	
+	animation: myframes 2s, ease-in-out 0s infinite;
+	animation-iteration-count: infinite;
+	transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+@keyframes myframes {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+
+}
+
+
+/*main {
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 10fr))
+}
+*/
+
+/*.card {
+	background-size: cover;
+	max-width: 100%;
+	position: relative;
+	height: 200%;
+}
+*/
+
+/*
+button {
+    background-color: yellow;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+		outline:none;
+		width: 230px;
+		height: 590px;
+		position: relative;
+		top: 1630px;
+		left: 1160px;
+		transition-property: all;
+}
+
+button :hover{
+	background-color: green;
+}*/
+height: 2250px;
+width: 2000px;
+
+width: 150px;
+height: 410px;

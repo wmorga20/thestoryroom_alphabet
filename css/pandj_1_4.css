@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-size: 10%;
+	background-image: url("../images/finished/painted_white.png");
+	background-repeat: repeat-y;
+	background-size: 4000px;
+}
+
+p {
+	font-size: 5vw;
+	position: relative;
+	left: 300px;
+	top: 10px;
+	padding-right: 100px;
+	width: 70%;
+	height: 50%;
+}
+
+#space1 {
+	height: 50px;
+}
+
+svg {
+	width: 300px;
+}
+
+#pumpkin {
+	padding-left: 600px;
+	padding-bottom: 300px;
+	animation: myframes 2s, ease-in-out 0s infinite;
+	animation-iteration-count: infinite;
+}
+
+
+	@keyframes myframes {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(200px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+
+	}
+
+#Candy1 {
+	padding-left: 200px;
+	padding-bottom: 300px;
+	animation: myframes 2s, ease-in-out 0s infinite;
+	animation-iteration-count: infinite;
+}
+
+
+	@keyframes myframes {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(200px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+
+	}
+
+
+#abandonedHouse {
+	position: relative;
+	top: 100px;
+	left: -100px;
+	padding-left: 200px;
+	font-size: 3vw;
+	width: 700px;
+	z-index: 2;
+}
+
+#regularHouse {
+	position: relative;
+	font-size: 3vw;
+	padding-left: 200px;
+	width: 700px;
+	height: 100px;
+	left: 800px;
+	z-index: 3;
+
+}
