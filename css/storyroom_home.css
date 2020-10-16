@@ -75,28 +75,3 @@ body, html{
 			}
 
 		}
-
-		p {
-			width: 50%;
-		}
-
-		#messageBook {
-			position: fixed;
-			left: 500px;
-			top: 300px;
-			padding-top: 10px;
-			padding-left: 10px;
-			opacity: 0%;
-			font-size: 100%;
-			margin: 0;
-			background-color: yellow;
-			width: 150px;
-			height: 60px;
-			font-family: Arial, Helvetica, sans-serif;
-			border-radius: 25px;
-
-		}
-
-		#Red_Book:hover ~ #messageBook {
-			opacity: 100%;
-		}

@@ -7,4 +7,3 @@ document.onkeydown = function(event) {
 			window.location.replace("P_storyroom.html");
 	}
 }
-
